@@ -1,0 +1,152 @@
+.navbar {
+    background-color: #37f3e4;
+    overflow: hidden;
+    height: 63px;
+}
+
+#nav-brand a {
+    display: block;
+    color: #f7f7f7;
+    text-align: center;
+    // padding: 14px 0px;
+    text-decoration: none;
+    font-family: 'Lato', serif;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+#nav-brand a:hover {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-navb-search {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-search {
+    width: 100px;
+}
+.navbar-navb-li a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-family: 'Lato', serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.navbar-navb-li {
+    // margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbar-navb-li a:hover {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links-row {
+    // display: inline;
+    align-content: center;
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 50vw;
+}
+#side-nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+    display: block;
+    transition: 0.3s;
+}
+
+#side-nav a:hover {
+    color: rgb(87, 86, 86);
+}
+
+#side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.side-nav-search {
+    margin: 0 4%;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+// Add product button:
+#round-button {
+    width: 80px;
+}
+.round-button-circle {
+    box-shadow: $grey100;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    z-index: 1;
+    overflow: hidden;
+}
+.round-button-circle:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .nav-links-row {
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .navbar-navb-search {
+        display: inline;
+    }
+}
+
+@media (min-width: 769px) {
+    .open-slide {
+        display: none;
+    }
+    .round-button {
+        width: 60px;
+    }
+}
+
+// Toggle between onClick:
+.open-side-menu {
+    width: 250px;
+}
+.closed-side-menu {
+    width: 0;
+}

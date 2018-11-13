@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/template-auth" ,
+  "port": "5000",
+  "requiresAuth": false
+}

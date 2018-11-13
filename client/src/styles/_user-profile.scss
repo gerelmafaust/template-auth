@@ -1,0 +1,88 @@
+.grid {
+    // background-color: $pink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.grid > div {
+    display: flex;
+    flex-basis: calc(35% - 70px);
+    // justify-content: center;
+    flex-direction: column;
+}
+.box1 div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flx-start {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.box {
+    margin: 20px;
+}
+// .box1 {
+//     border: 5px solid $pink;
+// }
+
+// .box2 {
+//     border: 5px solid $pink;
+// }
+
+#profile-pic {
+    // border: 10px solid $pink;
+    height: 250px;
+    width: 250px;
+}
+.up-card {
+    // border: 10px solid $pink;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    // text-align: center;
+}
+
+.up-title {
+    color: grey;
+    font-size: 18px;
+}
+
+.up-btn {
+    border: $popmint solid 2px;
+    border-radius: 4px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: $grey800;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.up-btn:hover,
+a:hover {
+    background-color: #37f3e4;
+    color: white;
+}
+
+/* Medium screens */
+@media all and (max-width: 768px) {
+    .grid {
+        justify-content: center;
+    }
+}
+
+/* Small screens */
+@media all and (max-width: 470px) {
+    .grid > div {
+        justify-content: center;
+    }
+    .grid {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,21 @@
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-09T17:02:26.465Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-09T17:02:27.520Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-09T17:11:28.331Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-09T17:11:29.382Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-09T17:26:25.612Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-10T10:24:52.033Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-10T10:24:53.098Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-10T11:04:02.208Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-10T11:04:03.270Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-10T16:09:51.965Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-10T16:09:53.020Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-11T11:24:06.467Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-11T11:24:07.567Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-11T16:55:13.774Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-11T16:55:14.832Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-11T17:21:07.057Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-11T17:21:08.113Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-11T17:28:26.641Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-11T17:28:27.698Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2018-11-12T17:00:34.860Z"}
+{"level":"info","message":"Connected to mongodb://localhost/template-auth...","timestamp":"2018-11-12T17:00:38.538Z"}
